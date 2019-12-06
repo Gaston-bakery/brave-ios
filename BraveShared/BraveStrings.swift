@@ -603,3 +603,13 @@ extension Strings {
     public static let MonthlyAdsClaimNotificationTitle = NSLocalizedString("MonthlyAdsClaimNotificationTitle", bundle: Bundle.braveShared, value: "Claim your Brave ads rewards", comment: "The title of the notification that goes out monthly to users who can claim an ads grant")
     public static let MonthlyAdsClaimNotificationBody = NSLocalizedString("MonthlyAdsClaimNotificationBody", bundle: Bundle.braveShared, value: "Time to get rewarded for those ads you've been seeing in Brave.", comment: "The body of the notification that goes out monthly to users who can claim an ads grant")
 }
+
+// MARK: - User Wallet
+extension Strings {
+    public static let UserWalletBATNotAllowedTitle = NSLocalizedString("UserWalletDetailsDisconnectButtonTitle", bundle: Bundle.braveShared, value: "Error creating Brave Browser BAT card", comment: "")
+    public static let UserWalletBATNotAllowedMessage = NSLocalizedString("UserWalletBATNotAllowedMessage", bundle: Bundle.braveShared, value: "BAT is not currently supported in your region.", comment: "")
+    public static let UserWalletCloseButtonTitle = NSLocalizedString("UserWalletCloseButtonTitle", bundle: Bundle.braveShared, value: "Close", comment: "")
+    public static let UserWalletGenericErrorTitle = NSLocalizedString("UserWalletGenericErrorTitle", bundle: Bundle.braveShared, value: "Error creating Brave Browser BAT card", comment: "")
+    public static let UserWalletGenericErrorMessage = NSLocalizedString("UserWalletGenericErrorMessage", bundle: Bundle.braveShared, value: "BAT is not currently supported in your region.", comment: "")
+    public static let UserWalletRetryPopupTitle = NSLocalizedString("UserWalletClosePopupTitle", bundle: Bundle.braveShared, value: "Close", comment: "")
+}
